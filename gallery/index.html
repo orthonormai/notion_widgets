@@ -17,7 +17,7 @@
 
 body {
   font-family: "Lexend", sans-serif;
-  background-color: #362a2b;
+  background-color: #fafafa;
   color: #e5ebf3;
 }
 
@@ -35,7 +35,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  /*transition: opacity 0.4s ease-in-out;*/
+  transition: opacity 0.4s ease-in-out;
 }
 
 .slide.current {
@@ -184,7 +184,7 @@ body {
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
     const auto = true;
-    const intervalTime = 5000;
+    const intervalTime = 1000;
     let slideInterval;
 
     const nextSlide = () => {
